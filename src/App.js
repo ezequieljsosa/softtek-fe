@@ -10,6 +10,8 @@ function App() {
         <div className="App">
             <h1>una app: {process.env.REACT_APP_ALGO} </h1>
             <button onClick={buscar}>Buscar al server</button>
+            <h1> Result: </h1>
+            <h2>{result}</h2>
         </div>
     );
 }
